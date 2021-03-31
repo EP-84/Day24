@@ -5,7 +5,7 @@ class App extends React.Component {
     var myLocalStorageData = localStorage.getItem('Paragon', 'yes, but Arena first');
     var myCookieData = document.cookie = "Year=2021"; 
     var mySessionStorage = sessionStorage.getItem('frontend', 'React');
-    };
+    }
   render() {
     return (
       <div className="App">
